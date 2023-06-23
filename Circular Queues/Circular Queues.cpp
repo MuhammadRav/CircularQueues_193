@@ -86,6 +86,14 @@ public:
 				cout << queue_array[front_position] << "	";
 				front_position++;
 			}
+
+			front_position = 0;
+
+			//iterasi dari awal array hingga rear
+			while (front_position <= rear_position) {
+				cout << queue_array[front_position] << "	";
+				front_position++;
+			}
 		}
 	}
 
