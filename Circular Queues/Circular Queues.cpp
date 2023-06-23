@@ -78,7 +78,7 @@ public:
 				cout << queue_array[front_position] << "	";
 				front_position++;
 			}
-
+			cout << endl;
 		}
 	}
 
