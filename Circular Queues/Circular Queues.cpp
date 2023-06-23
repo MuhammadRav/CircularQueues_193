@@ -70,6 +70,12 @@ public:
 			return;
 		}
 
+		cout << "\nElements in the queue are...\n";
+
+		//jika front_position <= rear_position, iterasi dari front hingga rear
+		if (front_position <= rear_position) {
+
+		}
 	}
 
 };
