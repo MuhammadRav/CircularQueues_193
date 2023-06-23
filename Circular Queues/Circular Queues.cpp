@@ -80,6 +80,13 @@ public:
 			}
 			cout << endl;
 		}
+		else {
+			//jika front_position > rear_position, iterasi dari front hingga akhir array
+			while (front_position <= n - 1) {
+				cout << queue_array[front_position] << "	";
+				front_position++;
+			}
+		}
 	}
 
 };
